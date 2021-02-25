@@ -31,11 +31,12 @@ def get_school_data(file_path=school_path):
         school_dataframe['District'] = school_dataframe.apply(district_school, axis=1)
         school_dataframe['DistrictType'] = school_dataframe['Typ gminy']
         school_dataframe['Voivodeship'] = school_dataframe.apply(voivodeship, axis=1)
+        school_dataframe['SchoolName'] = school_dataframe['Nazwa szkoły, placówki']
 
         #  inconsistency in data -> Ostrowice stopped being a district in 2019
         school_dataframe = school_dataframe[school_dataframe.District != 'Ostrowice']
 
-        return school_dataframe[['SchoolType', 'Students', 'Teachers', 'District', 'DistrictType', 'Voivodeship']]
+        return school_dataframe[['District', 'SchoolType', 'Students', 'Teachers', 'DistrictType', 'Voivodeship']]
 
     except Exception as e:
         print(repr(e))
@@ -100,8 +101,11 @@ def get_inhabitants_data(file_path=inhabitants_path):
             df['Voivodeship'] = 'śląskie' if voivodeship == 'śląske' else voivodeship
 
             inhabitants_dataframe.append(
-                df[~df.Age.isnull()][['Age', 'Total', 'District', 'DistrictType', 'Voivodeship']])
-        return pd.concat(inhabitants_dataframe)
+                df[~df.Age.isnull()][['District', 'DistrictType', 'Voivodeship', 'Age', 'Total']])
+            inh_data = pd.concat(inhabitants_dataframe)
+            inhabitants_data = inh_data.groupby(['District', 'DistrictType', 'Voivodeship', 'Age']).agg({'Total': 'sum'})
+            inhabitants_data.reset_index(inplace=True)
+        return inhabitants_data
 
     except Exception as e:
         print(repr(e))
