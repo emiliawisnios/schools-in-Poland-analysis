@@ -9,87 +9,20 @@ STUDENTS_AGES = {'Przedszkole': [3,6, '3-6'],
                'Szkoła policealna': [19, 24, '19-24']}
 
 
-def students_per_teacher_minimum(school_dataframe):
+def students_per_teacher_per_district(school_dataframe):
     school_dataframe.drop(school_dataframe[school_dataframe['Teachers'] == 0].index, inplace=True)
-    school_dataframe['Average_min'] = school_dataframe['Students']/school_dataframe['Teachers']
-    school_dataframe.replace(np.inf, -1, inplace=True)
-    school_dataframe.replace(np.nan, -1, inplace=True)
-    school_dataframe = school_dataframe.round(2)
-    districts_and_type = school_dataframe.groupby(['District', 'SchoolType'])['Average_min'].min()
-    return districts_and_type
+    school_dataframe['Students_per_Teachers'] = school_dataframe['Students'] / school_dataframe['Teachers']
+    school_dataframe_grouped = school_dataframe.groupby(
+        ['District', 'SchoolType']).agg({'Students_per_Teachers': ['min', 'max', 'mean']})
+    return school_dataframe_grouped
 
 
-def students_per_teacher_maximum(school_dataframe):
+def students_per_teacher_per_district_type(school_dataframe):
     school_dataframe.drop(school_dataframe[school_dataframe['Teachers'] == 0].index, inplace=True)
-    school_dataframe['Average_max'] = school_dataframe['Students'] / school_dataframe['Teachers']
-    school_dataframe.replace(np.inf, -1, inplace=True)
-    school_dataframe.replace(np.nan, -1, inplace=True)
-    school_dataframe = school_dataframe.round(2)
-    districts_and_type = school_dataframe.groupby(['District', 'SchoolType'])['Average_max'].max()
-    return districts_and_type
-
-
-def students_per_teacher_average(school_dataframe):
-    school_dataframe.drop(school_dataframe[school_dataframe['Teachers'] == 0].index, inplace=True)
-    districts_and_type = school_dataframe.groupby(['District', 'SchoolType']).agg({'Students': 'sum',
-                                                                                       'Teachers': 'sum'})
-    districts_and_type['Average'] = districts_and_type['Students'] / districts_and_type['Teachers']
-    districts_and_type.replace(np.inf, -1, inplace=True)
-    districts_and_type.replace(np.nan, -1, inplace=True)
-    districts_and_type = districts_and_type.round(2)
-    districts_and_type_drop = districts_and_type.drop(['Students', 'Teachers'], axis=1)
-    return districts_and_type_drop
-
-
-def students_per_teacher(min_df, max_df, average_df):
-    min_and_max = pd.merge(min_df.reset_index(), max_df.reset_index(), how='inner', on=['District', 'Type of school'])
-    final_df = pd.merge(min_and_max.reset_index(), average_df.reset_index(), how='inner',
-                        on=['District', 'Type of school'])
-    final_df_drop = final_df.drop(['index'], axis=1)
-    final_df_drop.to_csv('out.csv', sep=',',  encoding='utf-8', index=False)
-    return final_df_drop
-
-
-def students_per_teacher_minimum_per_districttype(school_dataframe):
-    school_dataframe.drop(school_dataframe[school_dataframe['Teachers'] == 0].index, inplace=True)
-    school_dataframe['Average_min'] = school_dataframe['Students']/school_dataframe['Teachers']
-    school_dataframe.replace(np.inf, -1, inplace=True)
-    school_dataframe.replace(np.nan, -1, inplace=True)
-    school_dataframe = school_dataframe.round(2)
-    districts_and_type = school_dataframe.groupby(['DistrictType', 'SchoolType'])['Average_min'].min()
-    return districts_and_type
-
-
-def students_per_teacher_maximum_per_districttype(school_dataframe):
-    school_dataframe.drop(school_dataframe[school_dataframe['Teachers'] == 0].index, inplace=True)
-    school_dataframe['Average_max'] = school_dataframe['Students']/school_dataframe['Teachers']
-    school_dataframe.replace(np.inf, -1, inplace=True)
-    school_dataframe.replace(np.nan, -1, inplace=True)
-    school_dataframe = school_dataframe.round(2)
-    districts_and_type = school_dataframe.groupby(['DistrictType', 'SchoolType'])['Average_max'].max()
-    return districts_and_type
-
-
-def students_per_teacher_average_per_districttype(school_dataframe):
-    school_dataframe.drop(school_dataframe[school_dataframe['Teachers'] == 0].index, inplace=True)
-    districts_and_type = school_dataframe.groupby(['DistrictType', 'SchoolType']).agg({'Students': 'sum',
-                                                                                       'Teachers': 'sum'})
-    districts_and_type['Average'] = districts_and_type['Students'] / districts_and_type['Teachers']
-    districts_and_type.replace(np.inf, -1, inplace=True)
-    districts_and_type.replace(np.nan, -1, inplace=True)
-    districts_and_type = districts_and_type.round(2)
-    districts_and_type_drop = districts_and_type.drop(['Students', 'Teachers'], axis=1)
-    return districts_and_type_drop
-
-
-def students_per_teacher_per_districttype(min_df, max_df, average_df):
-    min_and_max = pd.merge(min_df.reset_index(), max_df.reset_index(), how='inner',
-                           on=['DistrictType', 'Type of school'])
-    final_df = pd.merge(min_and_max.reset_index(), average_df.reset_index(), how='inner',
-                        on=['DistrictType', 'Type of school'])
-    final_df_drop = final_df.drop(['index'], axis=1)
-    final_df_drop.to_csv('out.csv', sep=',',  encoding='utf-8', index=False)
-    return final_df_drop
+    school_dataframe['Students_per_Teachers'] = school_dataframe['Students'] / school_dataframe['Teachers']
+    school_dataframe_grouped = school_dataframe.groupby(
+        ['DistrictType', 'SchoolType']).agg({'Students_per_Teachers': ['min', 'max', 'mean']})
+    return school_dataframe_grouped
 
 
 def sum_of_students(inhabitants_dataframe):
