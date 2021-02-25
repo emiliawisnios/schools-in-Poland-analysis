@@ -1,0 +1,131 @@
+,,Students_per_Teachers,Students_per_Teachers,Students_per_Teachers
+,,min,max,mean
+DistrictType,SchoolType,,,
+Gm,Branżowa szkoła I stopnia,0.4375,21.352941176470587,6.325911261940674
+Gm,Bursa,0.0,0.0,0.0
+Gm,Centrum Kształcenia Praktycznego,0.0,0.0,0.0
+Gm,Centrum Kształcenia Ustawicznego ze szkołami,0.0,0.0,0.0
+Gm,Czteroletnia szkoła muzyczna I stopnia,20.0,20.0,20.0
+Gm,Czteroletnie liceum plastyczne,3.2903225806451615,4.217391304347826,3.753856942496494
+Gm,Dom wczasów dziecięcych,0.0,0.0,0.0
+Gm,Gimnazjum,0.0,15.833333333333334,2.805666240401988
+Gm,Liceum ogólnokształcące,1.0555555555555556,160.0,10.177401540624787
+Gm,Młodzieżowy Ośrodek Socjoterapii ze szkołami,0.8974358974358975,3.3333333333333335,1.7938785651698599
+Gm,Młodzieżowy Ośrodek Wychowawczy,0.75,2.2962962962962963,1.3364364121608705
+Gm,Niepubliczna placówka kształcenia ustawicznego i praktycznego,0.0,0.0,0.0
+Gm,Niepubliczna placówka oświatowo-wychowawcza w systemie oświaty,0.0,0.0,0.0
+Gm,Ognisko pracy pozaszkolnej,0.0,0.0,0.0
+Gm,Ośrodek Rewalidacyjno-Wychowawczy umożliwiający upośledzonym umysłowo realizację obowiązku szkolnego i nauki,0.0,5.0,2.036720330838751
+Gm,Ośrodek dokształcania i doskonalenia zawodowego,0.0,0.0,0.0
+Gm,Placówka doskonalenia nauczycieli,0.0,0.0,0.0
+Gm,Placówki artystyczne (ognisko artystyczne),0.0,0.0,0.0
+Gm,Poradnia psychologiczno-pedagogiczna,0.0,0.0,0.0
+Gm,Poradnia specjalistyczna,0.0,0.0,0.0
+Gm,Przedszkole,0.0,72.0,9.352103657064092
+Gm,Punkt przedszkolny,0.0,32.0,10.922866727033394
+Gm,Specjalny Ośrodek Szkolno-Wychowawczy,0.0,1.6923076923076923,0.8629868129369621
+Gm,Specjalny Ośrodek Wychowawczy,3.1333333333333333,5.857142857142857,3.9016369047619044
+Gm,Sześcioletnia szkoła muzyczna I stopnia,1.3615384615384616,20.0,5.584379850012765
+Gm,Szkolne schronisko młodzieżowe,0.0,0.0,0.0
+Gm,Szkoła podstawowa,0.0,37.0,6.34680019076383
+Gm,Szkoła policealna,0.8571428571428571,51.36363636363637,13.343890452981361
+Gm,Szkoła specjalna przysposabiająca do pracy,0.4,8.0,1.728972987796517
+Gm,Szkoła sztuki cyrkowej,5.857142857142857,5.857142857142857,5.857142857142857
+Gm,Technikum,0.5769230769230769,46.0,15.210661586840832
+Gm,Zespół szkół i placówek oświatowych,0.0,0.0,0.0
+Gm,Zespół wychowania przedszkolnego,2.3333333333333335,25.0,9.627816492450641
+M,Bednarska Szkoła Realna,3.5714285714285716,3.5714285714285716,3.5714285714285716
+M,Biblioteki pedagogiczne,0.0,0.0,0.0
+M,Branżowa szkoła I stopnia,0.47058823529411764,44.0,5.14327317509794
+M,Bursa,0.0,0.0,0.0
+M,Centrum Kształcenia Praktycznego,0.0,0.0,0.0
+M,Centrum Kształcenia Ustawicznego - bez szkół,0.0,0.0,0.0
+M,Centrum Kształcenia Ustawicznego ze szkołami,0.0,0.0,0.0
+M,Czteroletnia szkoła muzyczna I stopnia,0.0,19.0,6.361111111111112
+M,Czteroletnia szkoła muzyczna II stopnia,0.0,16.0,3.868173493173493
+M,Czteroletnie liceum plastyczne,0.9354838709677419,4.521739130434782,3.3545861690087917
+M,Delegatura,0.0,0.0,0.0
+M,Dom wczasów dziecięcych,0.0,0.0,0.0
+M,Dziewięcioletnia ogólnokształcąca szkoła baletowa,2.0779220779220777,17.5,4.986823312483944
+M,Dziewięcioletnia szkoła sztuki tańca,3.6666666666666665,15.5,9.972222222222221
+M,Gimnazjum,0.13333333333333333,141.0,3.0706881226101865
+M,Kolegium Pracowników Służb Społecznych,3.6363636363636362,3.64,3.638181818181818
+M,Liceum ogólnokształcące,0.0,222.5,12.676497982993045
+M,Międzyszkolny ośrodek sportowy,0.0,0.0,0.0
+M,Młodzieżowy Ośrodek Socjoterapii ze szkołami,0.5357142857142857,3.6785714285714284,1.7829737462053792
+M,Młodzieżowy Ośrodek Wychowawczy,0.5116279069767442,2.8,1.3907419224480795
+M,Młodzieżowy dom kultury,0.0,0.0,0.0
+M,Niepubliczna placówka kształcenia ustawicznego i praktycznego,0.0,0.0,0.0
+M,Niepubliczna placówka kształcenia ustawicznego i praktycznego ze szkołami,0.0,0.0,0.0
+M,Niepubliczna placówka oświatowo-wychowawcza w systemie oświaty,0.0,0.0,0.0
+M,Ognisko pracy pozaszkolnej,0.0,0.0,0.0
+M,Ogród jordanowski,0.0,0.0,0.0
+M,Ogólnokształcąca szkoła muzyczna I stopnia,1.2352941176470589,4.049586776859504,2.3843233494866127
+M,Ogólnokształcąca szkoła muzyczna II stopnia,0.5,5.333333333333333,2.342219880576045
+M,Ośrodek Rewalidacyjno-Wychowawczy umożliwiający upośledzonym umysłowo realizację obowiązku szkolnego i nauki,0.0,24.0,2.184356802093458
+M,Ośrodek dokształcania i doskonalenia zawodowego,0.0,0.0,0.0
+M,Pałac młodzieży,0.0,0.0,0.0
+M,Placówka doskonalenia nauczycieli,0.0,0.0,0.0
+M,Placówki artystyczne (ognisko artystyczne),0.0,0.0,0.0
+M,Poradnia psychologiczno-pedagogiczna,0.0,0.0,0.0
+M,Poradnia specjalistyczna,0.0,0.0,0.0
+M,Pozaszkolna placówka specjalistyczna,0.0,0.0,0.0
+M,Poznańska szkoła chóralna,2.9692307692307693,2.9692307692307693,2.9692307692307693
+M,Przedszkole,0.0,141.0,8.811182431635846
+M,Punkt przedszkolny,0.0,30.0,6.678657493948912
+M,Specjalny Ośrodek Szkolno-Wychowawczy,0.0,1.8333333333333333,0.4765986248353228
+M,Specjalny Ośrodek Wychowawczy,1.0,5.0,2.730054741134287
+M,Sześcioletnia ogólnokształcąca szkoła sztuk pięknych,0.16129032258064516,3.466666666666667,1.435509472606247
+M,Sześcioletnia szkoła muzyczna I stopnia,0.0,51.0,5.907415290072039
+M,Sześcioletnia szkoła muzyczna II stopnia,0.0,13.0,2.7187229763689102
+M,Sześcioletnia szkoła sztuki tańca,2.5,19.25,10.733333333333333
+M,Szkolne schronisko młodzieżowe,0.0,0.0,0.0
+M,Szkoła podstawowa,0.0,124.0,7.617064569162677
+M,Szkoła policealna,0.0,450.0,18.919891780951065
+M,Szkoła policealna muzyczna,1.0857142857142856,18.0,3.7890069911866258
+M,Szkoła policealna plastyczna,0.0,206.0,23.33560731293094
+M,Szkoła specjalna przysposabiająca do pracy,0.17647058823529413,6.0,1.643207686270346
+M,Technikum,0.0,35.25,4.783810826129811
+M,Zespół szkół i placówek oświatowych,0.0,0.0,0.0
+M,Zespół wychowania przedszkolnego,0.42857142857142855,12.0,4.52634508348794
+M-Gm,Biblioteki pedagogiczne,0.0,0.0,0.0
+M-Gm,Branżowa szkoła I stopnia,0.0,99.0,6.6640253354105745
+M-Gm,Bursa,0.0,0.0,0.0
+M-Gm,Centrum Kształcenia Praktycznego,0.0,0.0,0.0
+M-Gm,Centrum Kształcenia Ustawicznego - bez szkół,0.0,0.0,0.0
+M-Gm,Centrum Kształcenia Ustawicznego ze szkołami,0.0,0.0,0.0
+M-Gm,Czteroletnia szkoła muzyczna I stopnia,2.75,14.666666666666666,7.8680555555555545
+M-Gm,Czteroletnie liceum plastyczne,2.382978723404255,3.8536585365853657,3.2471025774087527
+M-Gm,Delegatura,0.0,0.0,0.0
+M-Gm,Dom wczasów dziecięcych,0.0,0.0,0.0
+M-Gm,Gimnazjum,0.2,11.25,3.01386664186244
+M-Gm,Liceum ogólnokształcące,0.0,106.0,9.000960713460303
+M-Gm,Międzyszkolny ośrodek sportowy,0.0,0.0,0.0
+M-Gm,Młodzieżowy Ośrodek Socjoterapii ze szkołami,0.09090909090909091,2.75,1.6384137877625058
+M-Gm,Młodzieżowy Ośrodek Wychowawczy,1.0,2.395348837209302,1.4850920183277423
+M-Gm,Młodzieżowy dom kultury,0.0,0.0,0.0
+M-Gm,Niepubliczna placówka kształcenia ustawicznego i praktycznego,0.0,0.0,0.0
+M-Gm,Niepubliczna placówka kształcenia ustawicznego i praktycznego ze szkołami,0.0,0.0,0.0
+M-Gm,Niepubliczna placówka oświatowo-wychowawcza w systemie oświaty,0.0,0.0,0.0
+M-Gm,Ognisko pracy pozaszkolnej,0.0,0.0,0.0
+M-Gm,Ogólnokształcąca szkoła muzyczna I stopnia,1.3846153846153846,2.5641025641025643,1.9743589743589745
+M-Gm,Ośrodek Rewalidacyjno-Wychowawczy umożliwiający upośledzonym umysłowo realizację obowiązku szkolnego i nauki,0.0,4.0,1.915726491502099
+M-Gm,Ośrodek dokształcania i doskonalenia zawodowego,0.0,0.0,0.0
+M-Gm,Placówka doskonalenia nauczycieli,0.0,0.0,0.0
+M-Gm,Placówki artystyczne (ognisko artystyczne),0.0,0.0,0.0
+M-Gm,Poradnia psychologiczno-pedagogiczna,0.0,0.0,0.0
+M-Gm,Poradnia specjalistyczna,0.0,0.0,0.0
+M-Gm,Pozaszkolna placówka specjalistyczna,0.0,0.0,0.0
+M-Gm,Przedszkole,0.0,99.0,9.428329842806143
+M-Gm,Punkt przedszkolny,0.0,36.0,9.657538813261707
+M-Gm,Specjalny Ośrodek Szkolno-Wychowawczy,0.0,2.125,0.666709959648144
+M-Gm,Specjalny Ośrodek Wychowawczy,1.0,7.333333333333333,3.6769696969696968
+M-Gm,Sześcioletnia szkoła muzyczna I stopnia,1.0,33.0,6.521237047674281
+M-Gm,Sześcioletnia szkoła muzyczna II stopnia,1.9375,3.0,2.46875
+M-Gm,Szkolne schronisko młodzieżowe,0.0,0.0,0.0
+M-Gm,Szkoła podstawowa,0.0,73.0,6.768476178323131
+M-Gm,Szkoła policealna,0.0,151.0,11.402415131991026
+M-Gm,Szkoła specjalna przysposabiająca do pracy,0.5,2.125,1.1934523809523812
+M-Gm,Technikum,0.5,88.0,8.103097764973036
+M-Gm,Zespół szkół i placówek oświatowych,0.0,0.0,0.0
+M-Gm,Zespół wychowania przedszkolnego,1.0,24.0,10.163461538461538
